@@ -122,4 +122,12 @@ DisableFloatingPointUnits (
 
 #endif
 
+#if defined (MDE_CPU_RISCV64)
+VOID
+EFIAPI
+InitializeVectorUnits (
+  VOID
+  );
+#endif
+
 #endif
